@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
-import { HeroHeader } from './header'
 
 const image_url = "https://ik.imagekit.io/lrigu76hy/tailark/abstract-bg.jpg?updatedAt=1745733473768"
 
@@ -11,7 +10,6 @@ export default function HeroSection() {
         <>
             <main className="">
                 <section>
-                    <HeroHeader />
                     <div className="pb-8 md:pb-8 lg:pb-8">
                         <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
                             <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
