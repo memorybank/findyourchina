@@ -4,7 +4,6 @@ import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
 
 import {
   Carousel,
-  CarouselApi,
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
